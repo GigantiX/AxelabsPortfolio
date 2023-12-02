@@ -1,6 +1,9 @@
+import { Typewriter, Cursor } from "react-simple-typewriter";
+
 const ContainerBiodataHeaders = () => {
+
   return (
-    <div className="self-stretch overflow-hidden flex flex-row flex-wrap items-center justify-center pt-[0rem] px-[6.25rem] pb-[2.44rem] z-[5] text-left text-[1.5rem] text-white font-open-sans sm:py-[3rem] sm:px-[2rem] sm:box-border">
+    <div className="self-stretch overflow-hidden flex flex-row flex-wrap items-center justify-center pt-10 px-[6.25rem] pb-[2.44rem] z-[5] text-left text-[1.5rem] text-white font-open-sans sm:py-[3rem] sm:px-[2rem] sm:pt-[4rem] md:pt-[5rem] sm:box-border">
       <div className="flex-1 flex flex-col items-start justify-center gap-[0.06rem] min-w-[24.38rem] z-[1]">
         <div className="relative font-medium lg:font-medium lg:font-open-sans sm:text-[1rem]">
           Hey, I’am
@@ -11,7 +14,10 @@ const ContainerBiodataHeaders = () => {
         <div className="self-stretch overflow-hidden flex flex-row flex-wrap items-start justify-start pt-[0.44rem] px-[0rem] pb-[0.88rem] gap-[0.5rem]">
           <div className="relative font-medium sm:text-[1rem]">a</div>
           <div className="flex flex-row items-start justify-start text-gold sm:text-[1rem]">
-            <div className="relative font-medium">Mobile Developer</div>
+            <div className="relative font-medium">
+              <span><Typewriter words={['Mobile Developer','Front-end Developer']} loop={0}/></span>
+              <Cursor cursorStyle='|' cursorColor='yellow'/>
+            </div>
           </div>
           <div className="relative font-medium sm:text-[1rem]">
             from Indonesia

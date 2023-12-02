@@ -1,16 +1,16 @@
 // import CardHeader from "../components/card-header";
 import ContainerBiodataHeaders from "../components/container-biodata-headers";
-import MyNavbar from "../components/navbar";
 import TechContainer from "../components/tech-container";
+import Navbar from "../components/navbar";
 
 const ResponsiveLandingPage = () => {
   return (
-    <div className="relative bg-gray-100 w-full overflow-hidden flex flex-col items-start justify-start pt-[3.13rem] px-[0rem] pb-[0rem] box-border text-left text-[1rem] text-white font-open-sans sm:pt-[1.25rem] sm:box-border">
+    <div className="relative bg-gray-100 w-full overflow-hidden flex flex-col items-start justify-start px-[0rem] pb-[0rem] box-border text-left text-[1rem] text-white font-open-sans sm:box-border">
       <div className="absolute my-0 mx-[!important] top-[9.13rem] left-[-13.75rem] rounded-[50%] [background:radial-gradient(50%_50%_at_50%_50%,_rgba(255,_194,_46,_0.37),_rgba(255,_194,_46,_0))] w-[22.63rem] h-[23.06rem] z-[0]" />
       <div className="absolute my-0 mx-[!important] top-[34.19rem] right-[-8.25rem] rounded-[50%] [background:linear-gradient(155.09deg,_rgba(59,_2,_131,_0.84),_rgba(47,_0,_106,_0))] w-[28.94rem] h-[28.94rem] z-[1]" />
       <div className="absolute my-0 mx-[!important] top-[42.16rem] left-[-4.01rem] rounded-[50%] [background:linear-gradient(155.09deg,_rgba(145,_4,_148,_0.48),_rgba(47,_0,_106,_0))] w-[19.24rem] h-[19.45rem] [transform:_rotate(-14.88deg)] [transform-origin:0_0] z-[2]" />
       <div className="absolute my-0 mx-[!important] top-[-13.75rem] right-[-18.62rem] rounded-[50%] [background:radial-gradient(50%_50%_at_50%_50%,_rgba(67,_97,_238,_0.32),_rgba(67,_97,_238,_0))] w-[40.19rem] h-[41rem] z-[3]" />
-      <MyNavbar />
+      <Navbar />
       <ContainerBiodataHeaders />
       <TechContainer />
       <div className="self-stretch overflow-hidden flex flex-col items-center justify-start py-[1.44rem] px-[0rem] gap-[0.63rem] z-[7]">

@@ -46,13 +46,13 @@ module.exports = {
     },
     screens: {
       lg: {
-        max: "1200px",
+        max: "1280px",
       },
       md: {
-        max: "960px",
+        max: "768px",
       },
       sm: {
-        max: "420px",
+        max: "640px",
       },
     },
   },
