@@ -45,6 +45,9 @@ module.exports = {
       inherit: "inherit",
     },
     screens: {
+      xl: {
+        max: "1440px",
+      },
       lg: {
         max: "1280px",
       },
@@ -54,7 +57,7 @@ module.exports = {
       sm: {
         max: "640px",
       },
-    },
+    }
   },
   darkMode: "class",
   plugins: [

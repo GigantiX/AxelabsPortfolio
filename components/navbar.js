@@ -28,21 +28,21 @@ export default function Navbar() {
               <img src="\logo-axelabs-white-v2-1@2x.png" alt="AxeLabs" width={120} height="auto"/>
             </div>
           </div>
-          <div className="hidden md:block">
+          <div className="md:hidden sm:hidden lg:block xl:block">
             <div className="flex items-baseline ml-10 space-x-4">
-              <a href="#" className={`px-3 py-2 text-sm font-medium rounded-md ${router.pathname === '/' ? 'text-yellow-500' : 'text-white'}`}>Home</a>
+              <a href="#" className={`px-3 py-2 text-sm font-medium rounded-md ${router.pathname === '/' ? 'text-yellow-500' : 'text-white'}`}>H</a>
               <a href="#" className="px-3 py-2 text-sm font-medium text-white rounded-md">Project</a>
               <a href="#" className="px-3 py-2 text-sm font-medium text-white rounded-md">Download CV</a>
             </div>
           </div>
-          <div className="block md:hidden">
-            <button onClick={() => setNavbarOpen(!navbarOpen)} className="bg-grey inline-flex items-center justify-center p-2 text-black-400 rounded-md hover:text-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+          <div className="flex items-center sm:block md:hidden lg:hidden xl:hidden">
+            <button onClick={() => setNavbarOpen(!navbarOpen)} className=" sm:block md:hidden lg:hidden xl:hidden bg-grey inline-flex items-center justify-center p-2 text-black-400 rounded-md hover:text-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
               <img src="\hamburgermenu-svgrepocom.svg" className="block w-6 h-6" aria-hidden="true" />
             </button>
           </div>
         </div>
       </div>
-      <div className={`${navbarOpen ? 'block' : 'hidden'} md:hidden`}>
+      <div className={`${navbarOpen ? 'block' : 'hidden'}`}>
         <div className="px-2 pb-3 space-y-1">
           <a href="#" className={`block px-3 py-2 text-base font-medium rounded-md ${router.pathname === '/' ? 'text-yellow-500' : 'text-white'}`}>Home</a>
           <a href="#" className="block px-3 py-2 text-base font-medium text-white rounded-md">Project</a>
