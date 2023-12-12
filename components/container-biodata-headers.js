@@ -29,7 +29,7 @@ const ContainerBiodataHeaders = () => {
           interactions.
         </div>
         <div className="overflow-hidden flex flex-row flex-wrap items-center justify-start pt-[1.25rem] px-[0rem] pb-[0rem] gap-[1.19rem] text-[1.13rem]">
-          <div className="relative w-[10.94rem] h-[3.13rem]">
+          {/* <div className="relative w-[10.94rem] h-[3.13rem]">
             <header className="absolute top-[0rem] left-[0rem] w-[10.94rem] h-[3.13rem]" />
             <div className="absolute top-[0.81rem] left-[1.13rem] font-medium sm:text-[1rem]">
               Learn more
@@ -39,22 +39,29 @@ const ContainerBiodataHeaders = () => {
               alt=""
               src="/vector.svg"
             />
-          </div>
+          </div> */}
+          <a href="https://github.com/GigantiX">
           <img
             className="relative w-[1.94rem] h-[1.94rem]"
             alt=""
             src="/github-btn.svg"
           />
-          <img
-            className="relative w-[1.77rem] h-[1.77rem]"
-            alt=""
-            src="/ig-btn.svg"
-          />
-          <img
-            className="relative w-[2.81rem] h-[2.81rem] overflow-hidden shrink-0"
-            alt=""
-            src="/linkedin-btn.svg"
-          />
+          </a>
+          <a href="https://www.instagram.com/axlgndra/">
+            <img
+              className="relative w-[1.77rem] h-[1.77rem]"
+              alt=""
+              src="/ig-btn.svg"
+            />
+          </a>
+          <a href="www.linkedin.com/in/axel-ganendra">
+            <img
+              className="relative w-[2.81rem] h-[2.81rem] overflow-hidden shrink-0"
+              alt=""
+              src="/linkedin-btn.svg"
+            />
+          </a>
+          
         </div>
       </div>
       <div className="flex-1 flex flex-row items-center justify-center min-w-[29.13rem] z-[0]">
