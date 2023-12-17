@@ -3,7 +3,7 @@ import { Typewriter, Cursor } from "react-simple-typewriter";
 const ContainerBiodataHeaders = () => {
 
   return (
-    <div className="self-stretch overflow-hidden flex flex-row flex-wrap items-center justify-center pt-10 px-[6.25rem] pb-[2.44rem] z-[5] text-left text-[1.5rem] text-white font-open-sans sm:py-[3rem] sm:px-[2rem] sm:pt-[10rem] md:pt-[5rem] sm:box-border">
+    <div className="self-stretch overflow-hidden flex flex-row flex-wrap items-center justify-center pt-10 px-[6.25rem] pb-[2.44rem] z-[5] text-left text-[1.5rem] text-white font-open-sans sm:py-[3rem] sm:px-[2rem] sm:pt-[13rem] md:pt-[5rem] sm:box-border">
       <div className="flex-1 flex flex-col items-start justify-center gap-[0.06rem] min-w-[24.38rem] z-[1]">
         <div className="relative font-medium lg:font-medium lg:font-open-sans sm:text-[1rem]">
           Hey, I’am

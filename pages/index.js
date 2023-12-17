@@ -47,7 +47,7 @@ const ResponsiveLandingPage = () => {
         </div>
         <div className="self-stretch [background:linear-gradient(99.48deg,_#f4d538,_#fc9e47)] overflow-hidden flex flex-row flex-wrap items-start justify-center py-[2.63rem] px-[3.94rem] gap-[2.5rem] text-darkslategray-200">
           <img
-            className="relative max-w-[40rem] h-[auto] object-cover sm:w-full sm:h-full sm:max-w-[30rem] sm:flex-1 shadow-2xl"
+            className="sm:self-stretch relative max-w-[40rem] h-[auto] object-cover sm:h-auto sm:max-w-[30rem] sm:flex-1 shadow-2xl"
             alt=""
             src="/homepage-1@2x.png"
           />
@@ -73,7 +73,7 @@ const ResponsiveLandingPage = () => {
         </div>
         <div className="self-stretch [background:linear-gradient(99.48deg,_#35bbca,_#5002b3)] overflow-hidden flex flex-row flex-wrap items-start justify-center py-[2.63rem] px-[3.94rem] gap-[2.5rem]">
           <img
-            className="shadow-2xl relative max-w-[40rem] h-[auto] object-cover sm:w-full sm:max-w-full sm:h-auto"
+            className="sm:self-stretch relative max-w-[40rem] h-[auto] object-cover sm:h-auto sm:max-w-[30rem] sm:flex-1 shadow-2xl"
             alt=""
             src="/image-2@2x.png"
           />
@@ -103,7 +103,7 @@ const ResponsiveLandingPage = () => {
         </div>
         <div className="self-stretch [background:linear-gradient(99.48deg,_#8952ff,_#41128e)] overflow-hidden flex flex-row flex-wrap items-start justify-center py-[2.63rem] px-[3.94rem] gap-[2.5rem]">
           <img
-            className="relative max-w-[40rem] h-[auto] object-cover sm:max-w-full sm:h-auto shadow-2xl"
+            className="sm:self-stretch relative max-w-[40rem] h-[auto] object-cover sm:h-auto sm:max-w-[30rem] sm:flex-1 shadow-2xl"
             alt=""
             src="/rareskills-hp-1@2x.png"
           />
@@ -132,7 +132,7 @@ const ResponsiveLandingPage = () => {
         </div>
         <div className="self-stretch [background:linear-gradient(99.48deg,_#fdd46b,_#e66d11)] overflow-hidden flex flex-row flex-wrap items-start justify-center py-[2.63rem] px-[3.94rem] gap-[2.5rem]">
           <img
-            className="shadow-2xl relative max-w-[40rem] h-[auto] object-cover sm:max-w-full sm:h-auto"
+            className="sm:self-stretch relative max-w-[40rem] h-[auto] object-cover sm:h-auto sm:max-w-[30rem] sm:flex-1 shadow-2xl"
             alt=""
             src="/image-1@2x.png"
           />
