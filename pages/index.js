@@ -17,11 +17,11 @@ const ResponsiveLandingPage = () => {
         <div className="relative text-[1.88rem] font-semibold">My Projects</div>
         <div className="self-stretch [background:linear-gradient(99.48deg,_#9edd18,_#00cb8e)] overflow-hidden flex flex-row flex-wrap items-start justify-center py-[2.63rem] px-[3.94rem] gap-[2.5rem] text-darkslategray-100">
           <img
-            className="relative w-[42.86rem] h-[25.67rem] object-cover sm:flex-1 sm:self-stretch sm:h-auto sm:max-w-[30rem]"
+            className="shadow-2xl relative w-[42.86rem] h-[25.67rem] object-cover sm:flex-1 sm:self-stretch sm:h-auto sm:max-w-[30rem]"
             alt=""
             src="/screenshot-20231109-023745-1@2x.png"
           />
-          <div className="flex-1 h-[21.8rem] overflow-hidden flex flex-col items-start justify-between p-[0.63rem] box-border min-w-[25.13rem] max-w-[30.06rem]">
+          <div className=" flex-1 h-[21.8rem] overflow-hidden flex flex-col items-start justify-between p-[0.63rem] box-border min-w-[25.13rem] max-w-[30.06rem]">
             <b className="relative text-[2.56rem] inline-block w-[24.56rem]">
               BlueJack Pharmacy
             </b>
@@ -47,7 +47,7 @@ const ResponsiveLandingPage = () => {
         </div>
         <div className="self-stretch [background:linear-gradient(99.48deg,_#f4d538,_#fc9e47)] overflow-hidden flex flex-row flex-wrap items-start justify-center py-[2.63rem] px-[3.94rem] gap-[2.5rem] text-darkslategray-200">
           <img
-            className="relative w-[46.63rem] h-[32.94rem] object-cover sm:w-full sm:h-full sm:max-w-[30rem] sm:flex-1"
+            className="relative w-[46.63rem] h-[32.94rem] object-cover sm:w-full sm:h-full sm:max-w-[30rem] sm:flex-1 shadow-2xl"
             alt=""
             src="/homepage-1@2x.png"
           />
@@ -73,7 +73,7 @@ const ResponsiveLandingPage = () => {
         </div>
         <div className="self-stretch [background:linear-gradient(99.48deg,_#35bbca,_#5002b3)] overflow-hidden flex flex-row flex-wrap items-start justify-center py-[2.63rem] px-[3.94rem] gap-[2.5rem]">
           <img
-            className="relative w-[38.75rem] h-[21.71rem] object-cover sm:w-full sm:max-w-full sm:h-auto"
+            className="shadow-2xl relative w-[38.75rem] h-[21.71rem] object-cover sm:w-full sm:max-w-full sm:h-auto"
             alt=""
             src="/image-2@2x.png"
           />
@@ -103,7 +103,7 @@ const ResponsiveLandingPage = () => {
         </div>
         <div className="self-stretch [background:linear-gradient(99.48deg,_#8952ff,_#41128e)] overflow-hidden flex flex-row flex-wrap items-start justify-center py-[2.63rem] px-[3.94rem] gap-[2.5rem]">
           <img
-            className="relative w-[38.75rem] h-[27.66rem] object-cover sm:max-w-full sm:h-auto"
+            className="relative w-[38.75rem] h-[27.66rem] object-cover sm:max-w-full sm:h-auto shadow-2xl"
             alt=""
             src="/rareskills-hp-1@2x.png"
           />
@@ -132,7 +132,7 @@ const ResponsiveLandingPage = () => {
         </div>
         <div className="self-stretch [background:linear-gradient(99.48deg,_#fdd46b,_#e66d11)] overflow-hidden flex flex-row flex-wrap items-start justify-center py-[2.63rem] px-[3.94rem] gap-[2.5rem]">
           <img
-            className="relative w-[42.73rem] h-[28.73rem] object-cover sm:max-w-full sm:h-auto"
+            className="shadow-2xl relative w-[42.73rem] h-[28.73rem] object-cover sm:max-w-full sm:h-auto"
             alt=""
             src="/image-1@2x.png"
           />
