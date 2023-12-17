@@ -47,7 +47,7 @@ const ResponsiveLandingPage = () => {
         </div>
         <div className="self-stretch [background:linear-gradient(99.48deg,_#f4d538,_#fc9e47)] overflow-hidden flex flex-row flex-wrap items-start justify-center py-[2.63rem] px-[3.94rem] gap-[2.5rem] text-darkslategray-200">
           <img
-            className="relative w-[46.63rem] h-[32.94rem] object-cover sm:w-full sm:h-full sm:min-w-[25rem]"
+            className="relative w-[46.63rem] h-[32.94rem] object-cover sm:w-full sm:h-full sm:max-w-[30rem] sm:flex-1"
             alt=""
             src="/homepage-1@2x.png"
           />

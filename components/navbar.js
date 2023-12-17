@@ -30,9 +30,9 @@ export default function Navbar() {
           </div>
           <div className="md:hidden sm:hidden lg:block xl:block">
             <div className="flex items-baseline ml-10 space-x-4">
-              <a href="#" className={`px-3 py-2 text-sm font-medium rounded-md ${router.pathname === '/' ? 'text-yellow-500' : 'text-white'}`}>H</a>
-              <a href="#" className="px-3 py-2 text-sm font-medium text-white rounded-md">Project</a>
-              <a href="#" className="px-3 py-2 text-sm font-medium text-white rounded-md">Download CV</a>
+              <a href="#" className={`px-3 py-2 font-medium font-sans no-underline rounded-md ${router.pathname === '/' ? 'text-yellow' : 'text-white'}`}>Home</a>
+              <a href="#" className="px-3 py-2 text-sm font-medium font-sans no-underline text-white rounded-md hover:text-yellow">Project</a>
+              <a href="#" className="px-3 py-2 text-sm font-medium font-sans no-underline text-white rounded-md hover:text-yellow">Download CV</a>
             </div>
           </div>
           <div className="flex items-center sm:block md:hidden lg:hidden xl:hidden">
