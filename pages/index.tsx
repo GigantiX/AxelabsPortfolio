@@ -3,7 +3,7 @@ import ContainerBiodataHeaders from "../components/container-biodata-headers";
 import TechContainer from "../components/tech-container";
 import Navbar from "../components/navbar";
 
-const ResponsiveLandingPage = () => {
+const ResponsiveLandingPage: React.FC = () => {
   return (
     <div className="relative bg-gray-100 w-full overflow-hidden flex flex-col items-start justify-start px-[0rem] pb-[0rem] box-border text-left text-[1rem] text-white font-open-sans sm:box-border">
       <div className="absolute my-0 mx-[!important] top-[9.13rem] left-[-13.75rem] rounded-[50%] [background:radial-gradient(50%_50%_at_50%_50%,_rgba(255,_194,_46,_0.37),_rgba(255,_194,_46,_0))] w-[22.63rem] h-[23.06rem] z-[0]" />

@@ -1,6 +1,6 @@
 import { Typewriter, Cursor } from "react-simple-typewriter";
 
-const ContainerBiodataHeaders = () => {
+const ContainerBiodataHeaders: React.FC = () => {
 
   return (
     <div className="self-stretch overflow-hidden flex flex-row flex-wrap items-center justify-center pt-10 px-[6.25rem] pb-[2.44rem] z-[5] text-left text-[1.5rem] text-white font-open-sans sm:py-[3rem] sm:px-[2rem] sm:pt-[13rem] md:pt-[5rem] sm:box-border">
@@ -29,17 +29,7 @@ const ContainerBiodataHeaders = () => {
           interactions.
         </div>
         <div className="overflow-hidden flex flex-row flex-wrap items-center justify-start pt-[1.25rem] px-[0rem] pb-[0rem] gap-[1.19rem] text-[1.13rem]">
-          {/* <div className="relative w-[10.94rem] h-[3.13rem]">
-            <header className="absolute top-[0rem] left-[0rem] w-[10.94rem] h-[3.13rem]" />
-            <div className="absolute top-[0.81rem] left-[1.13rem] font-medium sm:text-[1rem]">
-              Learn more
-            </div>
-            <img
-              className="absolute top-[0.94rem] left-[8.81rem] w-[0.78rem] h-[1.18rem]"
-              alt=""
-              src="/vector.svg"
-            />
-          </div> */}
+          {}
           <a href="https://github.com/GigantiX">
           <img
             className="relative w-[1.94rem] h-[1.94rem]"

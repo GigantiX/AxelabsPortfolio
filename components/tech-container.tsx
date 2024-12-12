@@ -1,4 +1,4 @@
-const TechContainer = () => {
+const TechContainer: React.FC = () => {
   return (
     <div className="self-stretch [background:linear-gradient(267.91deg,_rgba(97,_97,_97,_0.41),_rgba(60,_60,_60,_0.19))] [backdrop-filter:blur(37px)] overflow-hidden flex flex-col items-center justify-center py-[1.81rem] px-[3.44rem] gap-[1.63rem] z-[6] text-left text-[1.88rem] text-silver font-open-sans sm:pl-[0rem] sm:pr-[0rem] sm:box-border">
       <b className="relative">Tech</b>

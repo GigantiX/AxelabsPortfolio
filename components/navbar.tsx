@@ -1,9 +1,9 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 
-export default function Navbar() {
-  const [navbarOpen, setNavbarOpen] = useState(false);
-  const [scrollPosition, setScrollPosition] = useState(0);
+const Navbar: React.FC = () => {
+  const [navbarOpen, setNavbarOpen] = useState<boolean>(false);
+  const [scrollPosition, setScrollPosition] = useState<number>(0);
   const router = useRouter();
 
   const handleScroll = () => {
@@ -51,4 +51,6 @@ export default function Navbar() {
       </div>
     </nav>
   );
-}
+};
+
+export default Navbar;
