@@ -3,9 +3,12 @@ import Head from "next/head";
 import "./global.css";
 import { NextUIProvider } from "@nextui-org/react";
 import { AppProps } from "next/app";
+import { Inter } from 'next/font/google'
 
-const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
+const inter = Inter({ subsets: ['latin'] })
+function MyApp({ Component, pageProps }: AppProps) {
   return (
+    <main className="inter.className">
     <NextUIProvider>
       <Fragment>
         <Head>
@@ -19,7 +22,8 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
         <Component {...pageProps} />
       </Fragment>
     </NextUIProvider>
-  );
+    </main>
+  )
 };
 
 export default MyApp;
